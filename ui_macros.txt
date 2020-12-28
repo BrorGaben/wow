@@ -13,4 +13,9 @@
 #hide_unit
 /run CastingBarFrame.Text:Hide() PlayerName:Hide() TargetFrameTextureFrameName:Hide() FocusFrameTextureFrameName:Hide() TargetFrameToTTextureFrameName:Hide()
 
+#remove_binds
+/run local s,e=31,124 if IsShiftKeyDown() then s,e=1,270  end local x = {} local y = 0 for i = s,e do y = GetBindingKey(GetBinding(i)) if y ~= nil then table.insert(x, y) end end for i = 1, table.getn(x) do SetBinding(x[i]) end
+
+#clear_bars
+/run for i = 1,120 do PickupAction(i) ClearCursor() end
 
