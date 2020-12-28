@@ -19,3 +19,11 @@
 #clear_bars
 /run for i = 1,120 do PickupAction(i) ClearCursor() end
 
+#fps_1
+/console m2Faster 1 ffx 0 hwPCF 1 shadowlod 0 timingmethod 1 showshadow 0 showfootprints 0 showfootprintparticles 0 ffxGlow 0 spelleffectlevel 2 particledensity 100
+
+#fps_2
+/console overridefarclip 0 farclip 177 horizonfarclip 1305 detailDoodadAlpha 0 groundeffectdensity 16
+
+#fps_3
+/console groundeffectdist 1 smallcull 1 skycloudlod 1 characterAmbient 1 extshadowquality 0 environmentDetail 0.5
