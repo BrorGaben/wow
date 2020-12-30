@@ -46,6 +46,8 @@ ENCHANTS
 	DEMONIC	
 		.enchant 1 348 
 		.enchant 2 348 
+	PRIMAL
+		.enchant 1 313
 MORPHS	
 	OLD_MODELS
 		FEMALE_HUMAN_OLD_MODEL
