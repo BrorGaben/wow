@@ -25,6 +25,9 @@
 #clear_bars
 /run for i = 1,120 do PickupAction(i) ClearCursor() end
 
+#hide_chat
+/run _CHATHIDE=not _CHATHIDE for i=1,NUM_CHAT_WINDOWS do for _,v in pairs{"","Tab"}do local f=_G["ChatFrame"..i..v]if _CHATHIDE then f.v=f:IsVisible()end f.ORShow=f.ORShow or f.Show f.Show=_CHATHIDE and f.Hide or f.ORShow if f.v then f:Show()end end end
+
 #fps_1
 /console m2Faster 1 ffx 0 hwPCF 1 shadowlod 0 timingmethod 1 showshadow 0 showfootprints 0 showfootprintparticles 0 ffxGlow 0 spelleffectlevel 2 particledensity 100
 
