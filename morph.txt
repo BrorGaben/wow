@@ -63,3 +63,6 @@ MORPHS
 		.morph 4619
 	SKELETON_WHITE
 		.morph 7550
+	skeleton_robe
+		.morph 18824	
+		
