@@ -67,4 +67,7 @@ MORPHS
 		.morph 7550
 	skeleton_robe
 		.morph 18824	
+	
+	nelf druid 
+	        .morph 18827
 		
